@@ -11,6 +11,7 @@ print(m.sqrt(9))
 import mod_func as mf
 import numpy as np
 
+# Roda o código apenas quando esse arquivo for executado diretamente (main)
 if __name__ == '__main__':
     mf.mensagem()
 
