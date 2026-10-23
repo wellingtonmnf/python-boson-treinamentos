@@ -1,8 +1,11 @@
 from math import sqrt
 
+
+# Criação de um tipo de exceção própria usando a classe Exception
 class NumeroNegativoError(Exception):
     def __init__(self):
         pass
+
 
 if __name__ == '__main__':
 
@@ -11,6 +14,7 @@ if __name__ == '__main__':
             num = int(input('Digite um número POSITIVO: '))
             if num < 0:
                 raise NumeroNegativoError
+        # Cada exceção deve ser tratara em uma linha separada
         except NumeroNegativoError:
             print(f'Foi fornecido um número NEGATIVO!')
         except ValueError:
