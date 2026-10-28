@@ -1,0 +1,1 @@
+Repositório com as práticas da Masterclass de Python do canal Bóson Treinamentos
